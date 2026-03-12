@@ -31,7 +31,7 @@ namespace Plugins
                     Entity account = service.Retrieve(
                         accountRef.LogicalName,
                         accountRef.Id,
-                        new ColumnSet("telephone1")
+                        new ColumnSet("telephone1z")
                     );
 
                     if (account.Contains("telephone1"))
