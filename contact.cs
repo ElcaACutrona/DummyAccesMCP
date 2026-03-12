@@ -36,7 +36,7 @@ namespace Plugins
 
                     if (account.Contains("telephone1"))
                     {
-                        contact["telephone1"] = account["telephone1"];
+                        contact["telephone1"] = account["telephone1z"];
                     }
                 }
             }
