@@ -31,12 +31,12 @@ namespace Plugins
                     Entity account = service.Retrieve(
                         accountRef.LogicalName,
                         accountRef.Id,
-                        new ColumnSet("telephone1z")
+                        new ColumnSet("telephone1zs")
                     );
 
                     if (account.Contains("telephone1"))
                     {
-                        contact["telephone1"] = account["telephone1z"];
+                        contact["telephone1"] = account["telephone1zs"];
                     }
                 }
             }
